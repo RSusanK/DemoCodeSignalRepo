@@ -12,6 +12,7 @@ public class IntStreamReplaceTraditionalForLoop {
 		
 		intArrayToStream(ar);
 		String s="a123";
+		System.out.println(" Testing ");
 		System.out.println(" String to Integer ");
 		System.out.println("Replaced " + s.replaceAll("[^0-9]", ""));
 		int value = Integer.parseInt(s.replaceAll("[^0-9]", ""));
